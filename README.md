@@ -14,3 +14,15 @@ informations personnels sur le CV.
 ● Une fois que vous avez modifié ce CV, il faudra effectuer les
 opérations nécessaire pour pousser sur votre dépôt distant
 (exercice2) la version modifié du site.   
+
+git init   
+git clone https://gitlab.com/mohamed.formation.m2I/m2iformation_exo.git   
+add ./README.md   
+commit -m "Commit 1 Exercice2"   
+git remote add origin https://github.com/VincentLip/Exercice2.git   
+git branch -M main   
+git push -u origin main   
+remote set-url origin https://github.com/VincentLip/Exercice2.git   
+git remote add origin https://github.com/VincentLip/Exercice2.git   
+git branch -M main   
+git push -u origin main   
